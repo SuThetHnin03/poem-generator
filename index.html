@@ -1,13 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/images/feather.webp" type="image/x-icon">
     <link rel="stylesheet" href="./src/style.css">
-    <title>Document</title>
+    <title>AI Poem Generator</title>
 </head>
+
 <body>
-    <h1>Welcome to AI Poem Generator</h1>
+<div class="container">
+  <header>
+    <h1 class="text-3xl font-bold underline">Welcome to AI Poem Generator</h1>
+</header>
+<main>
+    <form>
+      <input
+        type="text"
+        placeholder="Enter the topic of the French poem"
+        autofocus
+        required
+        autocomplete="off"
+        class="instructions"
+      />
+      <input type="submit" class="submit-button" />
+    </form>
+    <div class="poem">
+      La tombe dit à la rose
+      <br />
+      Des pleurs dont l'aube t'arrose
+    </div>
+  </main>
+  <footer>
+    Develop by <a href="https://github.com/SuThetHnin03">Zahra</a>, Open Source on <a
+        href="https://github.com/SuThetHnin03/poem-generator.git">Github</a>.
+</footer>
+</div>
 </body>
+
 <script src="./src/app.js"></script>
+
 </html>
